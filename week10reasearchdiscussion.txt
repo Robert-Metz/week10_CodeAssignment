@@ -1,0 +1,22 @@
+Stored Procedures:
+
+	A stored procedure is exactly what it sounds like, some form of procedure being enacted in MySQL quickly as it has been stored away for use later.
+ 
+	The pros to this are obviously speed not just in the typing end but also in the load time as the feature basically stores the print out instead of
+	having to manually divvy up the information as if you were to just keep copy pasting the same SQL command in the command line.
+
+	The cons to this however are that when there are updates that some of these commands can be rendered obsolete and MySQL doesnt offer a functioning 
+	debugging system so sometimes these stored procedures must be dropped and reconfigured with the new information.
+
+	All in all I view these to be a pretty efficient way to navigate database.
+
+Favorite Thing I Learned This Week:
+
+	Besides the fact that we are getting a week off I really enjoy the idea of Stored Procedures, I am learning to leave them to be more encompassing because I
+	keep making these LIMIT 20 ends where I later actually want to see all the information I'm getting and I could easily just add a LIMIT 20 after
+	typing the stored procedure, so there is also a level of performability and maximization of usage instead of having a massive arsenal of stored 
+	procedures it's nice to think of them not as the entire task, but a small piece of a task that can now be a lot less code on the command line 
+	which can be an extremely helpful thing when dealing with something that requires so many layers it's nice to know you can toss in something quickly to
+	cover the task and know that its functionality won't be in question (if it's been tested seperately of course).
+
+
